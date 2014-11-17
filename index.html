@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>養豬場</title>
+<link rel="stylesheet" type="text/css" href="css/csshake.min.css">
+<link type="text/css" href="css/csshake.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="css/modernizr.custom.53451.js"></script>
+
+
+
+<style type="text/css">
+body {
+	background-color: #FFC;
+}
+body,td,th {
+	color: #630;
+}
+</style>
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+function AlertIt(){
+	var myrandom = Math.round(Math.random()*2)
+	var messages = new Array()
+	messages[0] = "確定要出售?"
+	messages[1] = "確定要殺來吃?"
+	messages[2] = "確定要棄養?"
+	
+	var links = new Array
+	links[0] = "http://www.ruten.com.tw/"
+	links[1] = "https://icook.tw/categories/40"
+	links[2] = "http://www.tcapo.taipei.gov.tw/"
+	
+	var answer = confirm(messages[myrandom])
+	if(answer){
+		window.location = links[myrandom]
+		
+	confirm(messages[myrandom])
+	}
+}
+</script>
+
+
+
+<table width="100%" height="100%" border="0">
+  <tr>
+    <td align="center" valign="middle">
+    <div class="shake shake-vertical">
+<a href="javascript:AlertIt();">家豬三個月</a></div>
+</td>
+</tr>
+</table>
+<div class="container">
+<section id="dg-container" class="dg-container">
+				<div class="clr"></div>
+				<div class="dg-wrapper">
+                
+					<a href="#"><img src="images/PIG.png" alt="imagePIG"></a>
+					<a href="#"><img src="images/PIG2.png" alt="images/PIG2"></a>
+					<a href="#"><img src="images/PIG3.png" alt="images/PIG3"></a>
+				
+                </div>
+				<nav>	
+					<span class="dg-prev">&lt;</span>
+					<span class="dg-next">&gt;</span>
+				</nav>
+	  </section>
+        </div>
+        </div>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="css/jquery.gallery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#dg-container').gallery();
+			});
+			</script/>
+
+</body>
+</html>
