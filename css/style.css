@@ -1,3 +1,13 @@
+a {
+	color: #888;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #333;
+}
+
 .dg-container{
 	width: 100%;
 	height: 550px;
@@ -79,4 +89,7 @@
 .dg-container nav span.dg-next{
 	background-position: top right;
 	margin-left: 10px;
+}a:hover {
+	color: #630;
+	text-decoration: none;
 }
